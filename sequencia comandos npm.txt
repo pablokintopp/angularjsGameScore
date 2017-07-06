@@ -1,0 +1,33 @@
+instalar npm caso nao exista
+instalar typescript no atom
+
+
+
+C:\Users\UTFPR\Desktop>npm install -g typescript
+
+
+C:\Users\UTFPR\Desktop>npm install -g typings
+
+
+
+C:\Users\UTFPR\Desktop>apm config set proxy http://200.134.18.53:3128
+
+
+C:\Users\UTFPR\Desktop>cd ..
+
+C:\Users\UTFPR>cd ..
+
+C:\Users>cd ..
+
+C:\>mkdir angu
+
+C:\>cd angu
+
+C:\angu>npm init -y
+
+
+
+
+C:\angu> cd angular2-aula1
+C:\angu\angular2-aula1> npm install
+C:\angu\angular2-aula1> npm start

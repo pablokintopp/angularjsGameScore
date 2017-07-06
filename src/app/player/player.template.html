@@ -1,0 +1,26 @@
+
+<div class="table-responsive">
+  <table class="table">
+    <tr>
+      <th>Nome</th>
+      <th>Email</th>
+    </tr>
+      <tr *ngFor = "let p of players">
+        <td>{{ p.name }}</td>
+        <td>{{ p.email }}</td>
+      </tr>
+  </table>
+</div>
+<div class="table-responsive">
+  <table class="table">
+    <tr>
+      <th>Novo Player</th>
+    </tr>
+      <tr >
+        <td><input type="text" class="form-control" #user id="user" placeholder="informe nome"></td>
+        <td><input type="email" class="form-control"  #email id="email" placeholder="informe email"></td>
+        <td><input type="password" class="form-control"  #password id="password" placeholder="informe senha"></td>
+        <td><button class="btn btn-primary" (click)="save(user.value, email.value, password.value)" >Salvar</button></td>
+      </tr>
+  </table>
+</div>

@@ -1,0 +1,13 @@
+
+<div class="table-responsive">
+  <table class="table">
+    <tr>
+      <th>Pontuação</th>
+      <th>Data</th>
+    </tr>
+      <tr *ngFor = "let s of scores">
+        <td>{{ s.score }}</td>
+        <td>{{ s.date }}</td>
+      </tr>
+  </table>
+</div>
